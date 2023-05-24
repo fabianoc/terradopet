@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fcnet/public_html/terradopet
+    #- /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -r /home/fcnet/repositories/terradopet/* $DEPLOYPATH
